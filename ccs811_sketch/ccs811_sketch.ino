@@ -25,6 +25,7 @@ void setup()
 	retCode = myCCS811.begin();
 	myCCS811.setDriveMode(3); // 1 - 1s;  2 - 10s;  3 - 60s
 	myCCS811.setEnvironmentalData(42.0, 21.0);
+  // to do: enable ntc 10k correction
 
 }
 
