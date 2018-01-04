@@ -1,4 +1,4 @@
-// read Dat from Soarkfun CCS811 Breakout on I2C
+// read Data from Sparkfun CCS811 Breakout on I2C
 // based on https://learn.sparkfun.com/tutorials/ccs811-air-quality-breakout-hookup-guide#arduino-library-and-usage
 // 01-2018
 // jknofe
@@ -51,7 +51,7 @@ void loop()
 		Serial.print(tempVOC, DEC);
 		Serial.println("]ppb");
 
-    // to do LED incator with yellow RXLED
+    // to do LED indicator with yellow RXLED
 	}
 	else if (myCCS811.checkForStatusError())
 	{
